@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ProductShop</title>
     <link rel="stylesheet" href="cssStyle/headerStyle.css">
     <link rel="stylesheet" href="cssStyle/productStyle.css">
 </head>
@@ -36,20 +36,20 @@
     <!-- main section for the product -->
     <div class="main-container-product">
         <div class="border-main-design">
-            <h1 style="margin-bottom: 5px;">Dog Product</h1>
+            <h1 class="Product-text" style="margin-bottom: 10px;">Dog Product</h1>
                 <div class="product-flex">
                      <!-- item1 -->
                     <a href="#itemModal1">
                         <div class="border-flex-items">
-                            <img src="Image/DogImage.png" alt="Error Load" class="image-size">
+                            <img src="Image/DogProduct/DryFood.png" alt="Error Load" class="image-size">
                             <h4>Dry Dog Food</h4>
                         </div>
                     </a>
                     <!-- item2 -->
                     <a href="#itemModal2">
                         <div class="border-flex-items">
-                            <img src="Image/DogImage.png" alt="Error Load" class="image-size">
-                            <h4>Wet/Canned Dog Food</h4>
+                            <img src="Image//DogProduct/WetcanFood.png" alt="Error Load" class="image-size">
+                            <h4>Wet Canned Dog Food</h4>
                         </div>
                     </a>
                      <!-- item3 -->
@@ -88,7 +88,7 @@
                         </div>
                     </a>
                 </div>
-            <h1 style="margin-bottom: 5px; margin-top: 50px;">Cat Product</h1>
+            <h1 class="Product-text" style="margin-bottom: 5px; margin-top: 50px;">Cat Product</h1>
             <div class="product-flex">
                 <!-- item1 -->
                <a href="#itemModalCat1">
@@ -133,21 +133,64 @@
                    </div>
                </a>
            </div>
+
+           <h1 class="Product-text" style="margin-bottom: 5px; margin-top: 50px;">Fish Product</h1>
+            <div class="product-flex">
+                <!-- item1 -->
+               <a href="#itemModalFish1">
+                   <div class="border-flex-items">
+                       <img src="Image/DogImage.png" alt="Error Load" class="image-size">
+                       <h4>Flake Food</h4>
+                   </div>
+               </a>
+               <!-- item2 -->
+               <a href="#itemModalFish2">
+                   <div class="border-flex-items">
+                       <img src="Image/DogImage.png" alt="Error Load" class="image-size">
+                       <h4>Pellet Food</h4>
+                   </div>
+               </a>
+                <!-- item3 -->
+                <a href="#itemModalFish3">
+                   <div class="border-flex-items">
+                       <img src="Image/DogImage.png" alt="Error Load" class="image-size">
+                       <h4>Freeze-dried & Frozen Food</h4>
+                   </div>
+               </a>
+                <!-- item4 -->
+                <a href="#itemModalFish4">
+                   <div class="border-flex-items">
+                       <img src="Image/DogImage.png" alt="Error Load" class="image-size">
+                       <h4>Aquariums</h4>
+                   </div>
+               </a>
+                <!-- item5 -->
+                <a href="#itemModalFish5">
+                   <div class="border-flex-items">
+                       <img src="Image/DogImage.png" alt="Error Load" class="image-size">
+                       <h4>Algae Wafers</h4>
+                   </div>
+               </a>
+                <!-- item6 -->
+
+           </div>
         </div>
         
     </div>
 
     
+    <!-- use for close the modal at same spot -->
+    <div id="close" class="close-modal"></div>
 
-    
     <!-- modal for the dog product -->
+    
     <!-- modalItem1 -->
     <div id="itemModal1" class="modalOpen">
         <div class="modalItem">
-            <a href="#" class="closeBtn">&times;</a>
+            <a href="#close" class="closeBtn">&times;</a>
             <div class="modal-flex">
                 <div class="foodNImage">
-                    <img src="/Image/DogImage.png" alt="" class="modalImage">
+                    <img src="Image/DogProduct/DryFood.png" alt="" class="modalImage">
                     <h4>Dry Dog Food (2kg–15kg)</h4>
                     <p>₱800 – ₱4,500</p>
                 </div>
@@ -159,11 +202,11 @@
     <!-- modalItem2 -->
     <div id="itemModal2" class="modalOpen">
         <div class="modalItem">
-            <a href="#" class="closeBtn">&times;</a>
+            <a href="#close" class="closeBtn">&times;</a>
             <div class="modal-flex">
                 <div class="foodNImage">
-                    <img src="/Image/DogImage.png" alt="" class="modalImage">
-                    <h4>Wet/Canned Dog Food (per can)</h4>
+                    <img src="Image//DogProduct/WetcanFood.png" alt="" class="modalImage">
+                    <h4>Wet Canned Dog Food (per can)</h4>
                     <p>₱100 – ₱250</p>
                 </div>
                 <p class="modal-descrpt">Soft and tasty meals for dogs who prefer a moist texture, enriched with vitamins and minerals. Ideal for picky eaters or older dogs with dental issues.</p>
@@ -171,10 +214,10 @@
             <button class="buy-button">Buy</button>
         </div>
     </div>
-        <!-- modalItem3 -->
+    <!-- modalItem3 -->
     <div id="itemModal3" class="modalOpen">
         <div class="modalItem">
-            <a href="#" class="closeBtn">&times;</a>
+            <a href="#close" class="closeBtn">&times;</a>
             <div class="modal-flex">
                 <div class="foodNImage">
                     <img src="/Image/DogImage.png" alt="" class="modalImage">
@@ -186,25 +229,25 @@
             <button class="buy-button">Buy</button>
         </div>
     </div>
-        <!-- modalItem4 -->
-        <div id="itemModal4" class="modalOpen">
-            <div class="modalItem">
-                <a href="#" class="closeBtn">&times;</a>
-                <div class="modal-flex">
-                    <div class="foodNImage">
-                        <img src="/Image/DogImage.png" alt="" class="modalImage">
-                        <h4>Dog Shampoo & Conditioner</h4>
-                        <p>₱300 – ₱1,000</p>
-                    </div>
-                    <p class="modal-descrpt">Gentle, hypoallergenic shampoos designed to keep your dog clean and smelling fresh. Available for all coat types, these formulas nourish the skin and leave fur soft and shiny.</p>
+    <!-- modalItem4 -->
+    <div id="itemModal4" class="modalOpen">
+        <div class="modalItem">
+            <a href="#close" class="closeBtn">&times;</a>
+            <div class="modal-flex">
+                <div class="foodNImage">
+                    <img src="/Image/DogImage.png" alt="" class="modalImage">
+                    <h4>Dog Shampoo & Conditioner</h4>
+                    <p>₱300 – ₱1,000</p>
                 </div>
-                <button class="buy-button">Buy</button>
+                <p class="modal-descrpt">Gentle, hypoallergenic shampoos designed to keep your dog clean and smelling fresh. Available for all coat types, these formulas nourish the skin and leave fur soft and shiny.</p>
             </div>
+            <button class="buy-button">Buy</button>
         </div>
-        <!-- modalItem5 -->
+    </div>
+    <!-- modalItem5 -->
     <div id="itemModal5" class="modalOpen">
         <div class="modalItem">
-            <a href="#" class="closeBtn">&times;</a>
+            <a href="#close" class="closeBtn">&times;</a>
             <div class="modal-flex">
                 <div class="foodNImage">
                     <img src="/Image/DogImage.png" alt="" class="modalImage">
@@ -216,10 +259,10 @@
             <button class="buy-button">Buy</button>
         </div>
     </div>
-        <!-- modalItem6 -->
+    <!-- modalItem6 -->
     <div id="itemModal6" class="modalOpen">
         <div class="modalItem">
-            <a href="#" class="closeBtn">&times;</a>
+            <a href="#close" class="closeBtn">&times;</a>
             <div class="modal-flex">
                 <div class="foodNImage">
                     <img src="/Image/DogImage.png" alt="" class="modalImage">
@@ -234,7 +277,7 @@
         <!-- modalItem7 -->
     <div id="itemModal7" class="modalOpen">
         <div class="modalItem">
-            <a href="#" class="closeBtn">&times;</a>
+            <a href="#close" class="closeBtn">&times;</a>
             <div class="modal-flex">
                 <div class="foodNImage">
                     <img src="/Image/DogImage.png" alt="" class="modalImage">
@@ -247,10 +290,12 @@
         </div>
     </div>
 
+
     <!-- modal for the cat product -->
+    <!-- modalItemCat1 -->
     <div id="itemModalCat1" class="modalOpen">
         <div class="modalItem">
-            <a href="#" class="closeBtn">&times;</a>
+            <a href="#close" class="closeBtn">&times;</a>
             <div class="modal-flex">
                 <div class="foodNImage">
                     <img src="/Image/DogImage.png" alt="" class="modalImage">
@@ -262,10 +307,10 @@
             <button class="buy-button">Buy</button>
         </div>
     </div>
-    <!-- modalItem2 -->
+    <!-- modalItemCat2 -->
     <div id="itemModalCat2" class="modalOpen">
         <div class="modalItem">
-            <a href="#" class="closeBtn">&times;</a>
+            <a href="#close" class="closeBtn">&times;</a>
             <div class="modal-flex">
                 <div class="foodNImage">
                     <img src="/Image/DogImage.png" alt="" class="modalImage">
@@ -277,10 +322,10 @@
             <button class="buy-button">Buy</button>
         </div>
     </div>
-        <!-- modalItem3 -->
+        <!-- modalItemCat3 -->
     <div id="itemModalCat3" class="modalOpen">
         <div class="modalItem">
-            <a href="#" class="closeBtn">&times;</a>
+            <a href="#close" class="closeBtn">&times;</a>
             <div class="modal-flex">
                 <div class="foodNImage">
                     <img src="/Image/DogImage.png" alt="" class="modalImage">
@@ -292,10 +337,10 @@
             <button class="buy-button">Buy</button>
         </div>
     </div>
-        <!-- modalItem4 -->
+        <!-- modalItemCat4 -->
         <div id="itemModalCat4" class="modalOpen">
             <div class="modalItem">
-                <a href="#" class="closeBtn">&times;</a>
+                <a href="#close" class="closeBtn">&times;</a>
                 <div class="modal-flex">
                     <div class="foodNImage">
                         <img src="/Image/DogImage.png" alt="" class="modalImage">
@@ -307,10 +352,10 @@
                 <button class="buy-button">Buy</button>
             </div>
         </div>
-        <!-- modalItem5 -->
+        <!-- modalItemCat5 -->
     <div id="itemModalCat5" class="modalOpen">
         <div class="modalItem">
-            <a href="#" class="closeBtn">&times;</a>
+            <a href="#close" class="closeBtn">&times;</a>
             <div class="modal-flex">
                 <div class="foodNImage">
                     <img src="/Image/DogImage.png" alt="" class="modalImage">
@@ -322,10 +367,10 @@
             <button class="buy-button">Buy</button>
         </div>
     </div>
-        <!-- modalItem6 -->
+        <!-- modalItemCat6 -->
     <div id="itemModalCat6" class="modalOpen">
         <div class="modalItem">
-            <a href="#" class="closeBtn">&times;</a>
+            <a href="#close" class="closeBtn">&times;</a>
             <div class="modal-flex">
                 <div class="foodNImage">
                     <img src="/Image/DogImage.png" alt="" class="modalImage">
@@ -333,6 +378,97 @@
                     <p>₱300 – ₱1,000</p>
                 </div>
                 <p class="modal-descrpt">Keeps your cat's coat smooth and reduces shedding. Helps to prevent matting, especially in long-haired breeds. </p>
+            </div>
+            <button class="buy-button">Buy</button>
+        </div>
+    </div>
+
+        <!-- modalItemFish1 -->
+    <div id="itemModalFish1" class="modalOpen">
+        <div class="modalItem">
+            <a href="#close" class="closeBtn">&times;</a>
+            <div class="modal-flex">
+                <div class="foodNImage">
+                    <img src="/Image/DogImage.png" alt="" class="modalImage">
+                    <h4>Flake Food (tropical fish)</h4>
+                    <p>₱150 – ₱500</p>
+                </div>
+                <p class="modal-descrpt">Nutritious and easy-to-digest, flake food is ideal for a wide variety of freshwater tropical fish. Formulated with vitamins to support immune health and enhance colors. </p>
+            </div>
+            <button class="buy-button">Buy</button>
+        </div>
+    </div>
+    <!-- modalItemFish2 -->
+    <div id="itemModalFish2" class="modalOpen">
+        <div class="modalItem">
+            <a href="#close" class="closeBtn">&times;</a>
+            <div class="modal-flex">
+                <div class="foodNImage">
+                    <img src="/Image/DogImage.png" alt="" class="modalImage">
+                    <h4>Pellet Food (betta, goldfish, cichlids)</h4>
+                    <p>₱180 – ₱600</p>
+                </div>
+                <p class="modal-descrpt">Sinks slowly to allow fish to feed comfortably and reduce waste. Packed with proteins and nutrients tailored for specific species. </p>
+            </div>
+            <button class="buy-button">Buy</button>
+        </div>
+    </div>
+        <!-- modalItemFish3 -->
+    <div id="itemModalFish3" class="modalOpen">
+        <div class="modalItem">
+            <a href="#close" class="closeBtn">&times;</a>
+            <div class="modal-flex">
+                <div class="foodNImage">
+                    <img src="/Image/DogImage.png" alt="" class="modalImage">
+                    <h4>Freeze-dried & Frozen Food</h4>
+                    <p>₱250 – ₱900</p>
+                </div>
+                <p class="modal-descrpt">Offers a protein-rich diet with natural ingredients like bloodworms, daphnia, or brine shrimp. Great for carnivorous and picky eaters. </p>
+            </div>
+            <button class="buy-button">Buy</button>
+        </div>
+    </div>
+        <!-- modalItemFish4 -->
+        <div id="itemModalFish4" class="modalOpen">
+            <div class="modalItem">
+                <a href="#close" class="closeBtn">&times;</a>
+                <div class="modal-flex">
+                    <div class="foodNImage">
+                        <img src="/Image/DogImage.png" alt="" class="modalImage">
+                        <h4>Hairball Control Snacks</h4>
+                        <p>₱200 – ₱800</p>
+                    </div>
+                    <p class="modal-descrpt">Helps prevent hairball formation in long-haired cats. Contains added fiber and essential nutrients. </p>
+                </div>
+                <button class="buy-button">Buy</button>
+            </div>
+        </div>
+        <!-- modalItemFish5 -->
+    <div id="itemModalFish5" class="modalOpen">
+        <div class="modalItem">
+            <a href="#close" class="closeBtn">&times;</a>
+            <div class="modal-flex">
+                <div class="foodNImage">
+                    <img src="/Image/DogImage.png" alt="" class="modalImage">
+                    <h4>Algae Wafers (bottom feeders)</h4>
+                    <p>₱200 – ₱700</p>
+                </div>
+                <p class="modal-descrpt">Designed for plecos and other algae-eating fish, these wafers sink quickly and provide plant-based nutrition. Helps support healthy digestion. </p>
+            </div>
+            <button class="buy-button">Buy</button>
+        </div>
+    </div>
+        <!-- modalItemFish6 -->
+    <div id="itemModalFish6" class="modalOpen">
+        <div class="modalItem">
+            <a href="#close" class="closeBtn">&times;</a>
+            <div class="modal-flex">
+                <div class="foodNImage">
+                    <img src="/Image/DogImage.png" alt="" class="modalImage">
+                    <h4>Aquariums (5 to 100 gallons)</h4>
+                    <p>₱2,000 – ₱30,000</p>
+                </div>
+                <p class="modal-descrpt">Available in beginner kits and professional-grade tanks with filters and lights included. Choose from glass or acrylic in various sizes. </p>
             </div>
             <button class="buy-button">Buy</button>
         </div>
