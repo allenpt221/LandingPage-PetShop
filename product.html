@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="cssStyle/headerStyle.css">
+    <link rel="stylesheet" href="cssStyle/productStyle.css">
 </head>
 <body>
     <!-- nav bar header for all pages -->
@@ -15,7 +16,7 @@
         <div class="nav-header-list">
             <ul class="nav-list">
                 <a href="home.html"><li class="home" 
-                    style="padding: 4px 20px; color: black; text-align: center; border-radius: 20px; background-color: transparent;" 
+                style="padding: 4px 20px; color: black; text-align: center; border-radius: 20px; background-color: transparent;" 
                 onmouseover="this.style.backgroundColor='black'; this.style.color='white'" 
                 onmouseout="this.style.backgroundColor='transparent'; this.style.color='black';"
                 >Home</li></a>
@@ -31,6 +32,311 @@
             </ul>
         </div>
     </nav>
+
+    <!-- main section for the product -->
+    <div class="main-container-product">
+        <div class="border-main-design">
+            <h1 style="margin-bottom: 5px;">Dog Product</h1>
+                <div class="product-flex">
+                     <!-- item1 -->
+                    <a href="#itemModal1">
+                        <div class="border-flex-items">
+                            <img src="Image/DogImage.png" alt="Error Load" class="image-size">
+                            <h4>Dry Dog Food</h4>
+                        </div>
+                    </a>
+                    <!-- item2 -->
+                    <a href="#itemModal2">
+                        <div class="border-flex-items">
+                            <img src="Image/DogImage.png" alt="Error Load" class="image-size">
+                            <h4>Wet/Canned Dog Food</h4>
+                        </div>
+                    </a>
+                     <!-- item3 -->
+                     <a href="#itemModal3">
+                        <div class="border-flex-items">
+                            <img src="Image/DogImage.png" alt="Error Load" class="image-size">
+                            <h4>Dental Chews</h4>
+                        </div>
+                    </a>
+                     <!-- item4 -->
+                     <a href="#itemModal4">
+                        <div class="border-flex-items">
+                            <img src="Image/DogImage.png" alt="Error Load" class="image-size">
+                            <h4>Dog Shampoo & Conditioner</h4>
+                        </div>
+                    </a>
+                     <!-- item5 -->
+                     <a href="#itemModal5">
+                        <div class="border-flex-items">
+                            <img src="Image/DogImage.png" alt="Error Load" class="image-size">
+                            <h4>Skin & Coat Supplements</h4>
+                        </div>
+                    </a>
+                     <!-- item6 -->
+                     <a href="#itemModal6">
+                        <div class="border-flex-items">
+                            <img src="Image/DogImage.png" alt="Error Load" class="image-size">
+                            <h4>Food Toppers & Supplements</h4>
+                        </div>
+                    </a>
+                     <!-- item7 -->
+                     <a href="#itemModal7">
+                        <div class="border-flex-items">
+                            <img src="Image/DogImage.png" alt="Error Load" class="image-size">
+                            <h4>Ear and Eye Wipes</h4>
+                        </div>
+                    </a>
+                </div>
+            <h1 style="margin-bottom: 5px; margin-top: 50px;">Cat Product</h1>
+            <div class="product-flex">
+                <!-- item1 -->
+               <a href="#itemModalCat1">
+                   <div class="border-flex-items">
+                       <img src="Image/DogImage.png" alt="Error Load" class="image-size">
+                       <h4>Dry Cat Food</h4>
+                   </div>
+               </a>
+               <!-- item2 -->
+               <a href="#itemModalCat2">
+                   <div class="border-flex-items">
+                       <img src="Image/DogImage.png" alt="Error Load" class="image-size">
+                       <h4>Wet Cat Food</h4>
+                   </div>
+               </a>
+                <!-- item3 -->
+                <a href="#itemModalCat3">
+                   <div class="border-flex-items">
+                       <img src="Image/DogImage.png" alt="Error Load" class="image-size">
+                       <h4>Cat Treats</h4>
+                   </div>
+               </a>
+                <!-- item4 -->
+                <a href="#itemModalCat4">
+                   <div class="border-flex-items">
+                       <img src="Image/DogImage.png" alt="Error Load" class="image-size">
+                       <h4>Hairball Control Snacks</h4>
+                   </div>
+               </a>
+                <!-- item5 -->
+                <a href="#itemModalCat5">
+                   <div class="border-flex-items">
+                       <img src="Image/DogImage.png" alt="Error Load" class="image-size">
+                       <h4>Cat Shampoo & Wipes</h4>
+                   </div>
+               </a>
+                <!-- item6 -->
+                <a href="#itemModalCat6">
+                   <div class="border-flex-items">
+                       <img src="Image/DogImage.png" alt="Error Load" class="image-size">
+                       <h4>Hair Brushes & Shedding Tools</h4>
+                   </div>
+               </a>
+           </div>
+        </div>
+        
+    </div>
+
+    
+
+    
+    <!-- modal for the dog product -->
+    <!-- modalItem1 -->
+    <div id="itemModal1" class="modalOpen">
+        <div class="modalItem">
+            <a href="#" class="closeBtn">&times;</a>
+            <div class="modal-flex">
+                <div class="foodNImage">
+                    <img src="/Image/DogImage.png" alt="" class="modalImage">
+                    <h4>Dry Dog Food (2kg–15kg)</h4>
+                    <p>₱800 – ₱4,500</p>
+                </div>
+                <p class="modal-descrpt">A balanced, nutritious formula for dogs of all breeds and life stages, offering essential nutrients for daily energy and health. Choose from a variety of flavors and specialized diets for sensitive stomachs or weight control.</p>
+            </div>
+            <button class="buy-button">Buy</button>
+        </div>
+    </div>
+    <!-- modalItem2 -->
+    <div id="itemModal2" class="modalOpen">
+        <div class="modalItem">
+            <a href="#" class="closeBtn">&times;</a>
+            <div class="modal-flex">
+                <div class="foodNImage">
+                    <img src="/Image/DogImage.png" alt="" class="modalImage">
+                    <h4>Wet/Canned Dog Food (per can)</h4>
+                    <p>₱100 – ₱250</p>
+                </div>
+                <p class="modal-descrpt">Soft and tasty meals for dogs who prefer a moist texture, enriched with vitamins and minerals. Ideal for picky eaters or older dogs with dental issues.</p>
+            </div>
+            <button class="buy-button">Buy</button>
+        </div>
+    </div>
+        <!-- modalItem3 -->
+    <div id="itemModal3" class="modalOpen">
+        <div class="modalItem">
+            <a href="#" class="closeBtn">&times;</a>
+            <div class="modal-flex">
+                <div class="foodNImage">
+                    <img src="/Image/DogImage.png" alt="" class="modalImage">
+                    <h4>Dental Chews (pack)</h4>
+                    <p>₱250 – ₱850</p>
+                </div>
+                <p class="modal-descrpt">Helps clean teeth and control plaque buildup while keeping your dog's breath fresh. These tasty chews promote oral health and prevent bad breath in an enjoyable way.</p>
+            </div>
+            <button class="buy-button">Buy</button>
+        </div>
+    </div>
+        <!-- modalItem4 -->
+        <div id="itemModal4" class="modalOpen">
+            <div class="modalItem">
+                <a href="#" class="closeBtn">&times;</a>
+                <div class="modal-flex">
+                    <div class="foodNImage">
+                        <img src="/Image/DogImage.png" alt="" class="modalImage">
+                        <h4>Dog Shampoo & Conditioner</h4>
+                        <p>₱300 – ₱1,000</p>
+                    </div>
+                    <p class="modal-descrpt">Gentle, hypoallergenic shampoos designed to keep your dog clean and smelling fresh. Available for all coat types, these formulas nourish the skin and leave fur soft and shiny.</p>
+                </div>
+                <button class="buy-button">Buy</button>
+            </div>
+        </div>
+        <!-- modalItem5 -->
+    <div id="itemModal5" class="modalOpen">
+        <div class="modalItem">
+            <a href="#" class="closeBtn">&times;</a>
+            <div class="modal-flex">
+                <div class="foodNImage">
+                    <img src="/Image/DogImage.png" alt="" class="modalImage">
+                    <h4>Skin & Coat Supplements</h4>
+                    <p>₱500 – ₱1,400</p>
+                </div>
+                <p class="modal-descrpt">Omega-3 and 6 fatty acids, along with other vitamins, work to promote healthy skin and a shiny coat. Perfect for dogs with dry, flaky skin or dull fur.</p>
+            </div>
+            <button class="buy-button">Buy</button>
+        </div>
+    </div>
+        <!-- modalItem6 -->
+    <div id="itemModal6" class="modalOpen">
+        <div class="modalItem">
+            <a href="#" class="closeBtn">&times;</a>
+            <div class="modal-flex">
+                <div class="foodNImage">
+                    <img src="/Image/DogImage.png" alt="" class="modalImage">
+                    <h4>Food Toppers & Supplements</h4>
+                    <p>₱500 – ₱1,700</p>
+                </div>
+                <p class="modal-descrpt">Enhance your dog's regular meals with tasty toppers, or add nutritional supplements for better joint health, skin, and coat. These products ensure a complete, well-rounded diet.</p>
+            </div>
+            <button class="buy-button">Buy</button>
+        </div>
+    </div>
+        <!-- modalItem7 -->
+    <div id="itemModal7" class="modalOpen">
+        <div class="modalItem">
+            <a href="#" class="closeBtn">&times;</a>
+            <div class="modal-flex">
+                <div class="foodNImage">
+                    <img src="/Image/DogImage.png" alt="" class="modalImage">
+                    <h4>Ear and Eye Wipes</h4>
+                    <p>₱250 – ₱700</p>
+                </div>
+                <p class="modal-descrpt">Gentle wipes for cleaning your dog's ears and eyes, helping to prevent infections or irritations. They are safe to use on a regular basis and ideal for dogs with sensitive areas.</p>
+            </div>
+            <button class="buy-button">Buy</button>
+        </div>
+    </div>
+
+    <!-- modal for the cat product -->
+    <div id="itemModalCat1" class="modalOpen">
+        <div class="modalItem">
+            <a href="#" class="closeBtn">&times;</a>
+            <div class="modal-flex">
+                <div class="foodNImage">
+                    <img src="/Image/DogImage.png" alt="" class="modalImage">
+                    <h4>Dry Cat Food (1kg–7kg)</h4>
+                    <p>₱600 – ₱3,000</p>
+                </div>
+                <p class="modal-descrpt">Specially formulated to support urinary health and provide essential nutrients. Available in flavors your cat will love with options for indoor or hairball control.</p>
+            </div>
+            <button class="buy-button">Buy</button>
+        </div>
+    </div>
+    <!-- modalItem2 -->
+    <div id="itemModalCat2" class="modalOpen">
+        <div class="modalItem">
+            <a href="#" class="closeBtn">&times;</a>
+            <div class="modal-flex">
+                <div class="foodNImage">
+                    <img src="/Image/DogImage.png" alt="" class="modalImage">
+                    <h4>Wet Cat Food (per can/pouch)</h4>
+                    <p>₱80 – ₱200</p>
+                </div>
+                <p class="modal-descrpt">Moist, protein-rich meals that are easy to digest and highly palatable. Great for picky eaters or cats with dental issues. </p>
+            </div>
+            <button class="buy-button">Buy</button>
+        </div>
+    </div>
+        <!-- modalItem3 -->
+    <div id="itemModalCat3" class="modalOpen">
+        <div class="modalItem">
+            <a href="#" class="closeBtn">&times;</a>
+            <div class="modal-flex">
+                <div class="foodNImage">
+                    <img src="/Image/DogImage.png" alt="" class="modalImage">
+                    <h4>Cat Treats</h4>
+                    <p> ₱100 – ₱700</p>
+                </div>
+                <p class="modal-descrpt">Crunchy or soft treats ideal for training or bonding. Available in tuna, chicken, salmon, and other enticing flavors.</p>
+            </div>
+            <button class="buy-button">Buy</button>
+        </div>
+    </div>
+        <!-- modalItem4 -->
+        <div id="itemModalCat4" class="modalOpen">
+            <div class="modalItem">
+                <a href="#" class="closeBtn">&times;</a>
+                <div class="modal-flex">
+                    <div class="foodNImage">
+                        <img src="/Image/DogImage.png" alt="" class="modalImage">
+                        <h4>Hairball Control Snacks</h4>
+                        <p>₱200 – ₱800</p>
+                    </div>
+                    <p class="modal-descrpt">Helps prevent hairball formation in long-haired cats. Contains added fiber and essential nutrients. </p>
+                </div>
+                <button class="buy-button">Buy</button>
+            </div>
+        </div>
+        <!-- modalItem5 -->
+    <div id="itemModalCat5" class="modalOpen">
+        <div class="modalItem">
+            <a href="#" class="closeBtn">&times;</a>
+            <div class="modal-flex">
+                <div class="foodNImage">
+                    <img src="/Image/DogImage.png" alt="" class="modalImage">
+                    <h4>Cat Shampoo & Wipes</h4>
+                    <p> ₱200 – ₱800</p>
+                </div>
+                <p class="modal-descrpt">Mild, pH-balanced products safe for sensitive cat skin. Wipes are perfect for quick cleanups between baths. </p>
+            </div>
+            <button class="buy-button">Buy</button>
+        </div>
+    </div>
+        <!-- modalItem6 -->
+    <div id="itemModalCat6" class="modalOpen">
+        <div class="modalItem">
+            <a href="#" class="closeBtn">&times;</a>
+            <div class="modal-flex">
+                <div class="foodNImage">
+                    <img src="/Image/DogImage.png" alt="" class="modalImage">
+                    <h4>Hair Brushes & Shedding Tools</h4>
+                    <p>₱300 – ₱1,000</p>
+                </div>
+                <p class="modal-descrpt">Keeps your cat's coat smooth and reduces shedding. Helps to prevent matting, especially in long-haired breeds. </p>
+            </div>
+            <button class="buy-button">Buy</button>
+        </div>
+    </div>
 
 </body>
 </html>

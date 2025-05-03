@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     /* border: 1px solid #000000; */
     
 }
@@ -26,7 +25,6 @@
 
 .home-containter-middle{
     display: flex;
-    flex-direction: row;
     gap: 200px;
 }
 
@@ -56,6 +54,8 @@
 
 .home-bg{
     height: 100vh;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .h1-home{
@@ -90,96 +90,3 @@
     border-radius: 20px;
 }
 
-.footer-content{
-    padding: 0 400px 0  50px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer-content-list{
-    display: flex;
-    flex-direction: column;
-}
-
-.Fa-item{
-    display: flex;
-    gap: 5px;
-    padding: 5px;
-    cursor: pointer;
-}
-
-.Fa-item:hover{
-    transform: scale(1.02);
-}
-
-.Fa-item:active{
-    transform: scale(0.95);
-}
-
-
-
-.footer-contact{
-    color: #4d4d4d94;
-}
-
-.fa-envelope,
-.fa-map-marker{
-    color: #ff0000fb;
-}
-
-.fa-phone{
-    color: #2fff06b3;
-}
-
-.brand-desc{
-    width: 400px;
-    font-size: 14px;
-    margin-left: 5px;
-    color: #4d4d4d94;
-}
-
-.list-footer-right{
-    margin-top: 30px;
-    font-weight: 500;
-    font-size: 17px;
-}
-
-.right-flex{
-    display: flex;
-    gap: 60px;
-}
-
-.list-of-footer{
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    color: #33333391;
-    cursor: pointer;
-}
-
-.list-icon:hover {
-    transform: scale(1.01);
-}
-
-.list-icon{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-self: flex-start;
-}
-
-.fa-exclamation{
-    border: 1px solid black;
-    width: 100px;
-    padding: 3px 1px;
-    border-radius: 100%;
-}
-
-
-.fa-exclamation,
-.fa-newspaper-o,
-.fa-shopping-bag{
-    width: 28px;
-    text-align: center;
-}
