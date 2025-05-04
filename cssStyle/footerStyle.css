@@ -86,3 +86,15 @@ a{
     text-align: center;
 }
 
+.border-line-footer{
+    border: 1px solid #3f3f3f1c;
+    margin: 10px 50px 5px 50px;
+}
+
+.footer-rights{
+    display: flex;
+    justify-content: center;
+    color: #0000008f;
+    font-size: 14px;
+}
+
