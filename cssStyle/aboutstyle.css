@@ -11,10 +11,6 @@
     gap: 20px;
 }
 
-.abouts-h1{
-    color: brown;
-}
-
 .image-section{
     max-width: 900px;
     margin: auto;
@@ -97,4 +93,16 @@ svg{
 .order-track{
     width: 500px;
     font-size: 12px;
+}
+
+.about{
+    background-color: black;
+    color: white;
+    padding: 2px 5px 2px 5px;
+    border-radius: 20px;
+}
+
+.nav-list li{
+    width: 100px;
+    text-align: center;
 }
